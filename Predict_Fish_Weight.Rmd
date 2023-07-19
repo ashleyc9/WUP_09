@@ -78,7 +78,8 @@ Best two regression models are height and width.
 Perchmodel <-lm(Weight~Height+Width, data=Perch)
 summary.lm(Perchmodel)
 ```
-
+  
+The adjusted r-squared is 0.94 and the residual standard error is 85.17, with a p-value of 2.2
 
 
 ## Pike
