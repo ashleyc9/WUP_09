@@ -114,6 +114,13 @@ summary.lm(Pikebest)
 
 ### Best Two regressor model
 
+```{r}
+Piketwo <-lm(Weight~Length1+Length3, data=Pike)
+summary.lm(Piketwo)
+```
+  
+
+
 ## Roach
 
 ### Best Models
