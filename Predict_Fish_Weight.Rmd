@@ -79,7 +79,7 @@ Perchmodel <-lm(Weight~Height+Width, data=Perch)
 summary.lm(Perchmodel)
 ```
   
-The adjusted r-squared is 0.94 and the residual standard error is 85.17, with a p-value of 2.2
+The adjusted r-squared is 0.94 and the residual standard error is 85.17, with a p-value of 2.2e-16
 
 
 ## Pike
@@ -148,6 +148,8 @@ Best regression model is all of them. The two best regression models is L1, L3.
 Roachrock <-lm(Weight~.,data=Roach)
 summary.lm(Roachrock)
 ```
+  
+The residual standard error is 37.58. The r-squared is 0.821 and the p-value is 1.028e-05. This mdoel holds the smallest p-value out of all the models we did so far above.
 
 ### Best Two regressor model
 
