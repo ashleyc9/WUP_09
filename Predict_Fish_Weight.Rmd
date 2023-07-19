@@ -104,6 +104,14 @@ subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2
 
 ### Best Models
 
+```{r}
+Pikebest <-lm(Weight~.,data=Pike)
+summary.lm(Pikebest)
+```
+  
+ 
+
+
 ### Best Two regressor model
 
 ## Roach
